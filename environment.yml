@@ -5,6 +5,7 @@ channels:
 - ericmjl
 dependencies:
 - python=3.6
+- autopep8
 - jupyter
 - jupyterlab
 - scikit-learn
@@ -16,3 +17,5 @@ dependencies:
 - matplotlib
 - seaborn
 - jupyter_contrib_nbextensions
+- pip:
+    - ijson
