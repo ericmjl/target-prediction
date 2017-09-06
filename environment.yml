@@ -17,5 +17,7 @@ dependencies:
 - matplotlib
 - seaborn
 - jupyter_contrib_nbextensions
+- feather-format
+- ujson
 - pip:
     - ijson
