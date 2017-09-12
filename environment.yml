@@ -12,12 +12,12 @@ dependencies:
 - pandas
 - numpy
 - scipy
-- tensorflow-gpu
 - keras
 - matplotlib
 - seaborn
 - jupyter_contrib_nbextensions
 - feather-format
 - ujson
+- biopython
 - pip:
     - ijson
