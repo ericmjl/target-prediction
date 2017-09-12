@@ -1,5 +1,6 @@
 download:
 	wget https://s3-eu-west-1.amazonaws.com/targetvalidation-dumps/17.04_association_data.json.gz -O data/17.04_association_data.json.gz
+	wget ftp://ftp.ebi.ac.uk/pub/databases/genenames/new/json/hgnc_complete_set.json data/hgnc_complete_set.json
 
 unzip:
 	gunzip -k data/17.04_association_data.json.gz
